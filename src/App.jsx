@@ -21,6 +21,7 @@ function App() {
         <Route index element={<h1>Homepage</h1>} />
         <Route path="about" element={<h1>About</h1>} />
         <Route path="contact" element={<h1>Contact</h1>} />
+        <Route path="*" element={<h1>404 page not found</h1>} />
       </Routes>
     </>
   );
